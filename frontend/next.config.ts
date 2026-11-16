@@ -6,6 +6,9 @@ import type { NextConfig } from "next";
 const localApi = process.env.SARPULSE_API_ORIGIN ?? "http://localhost:8000";
 
 const nextConfig: NextConfig = {
+  // The image optimizer route (/_next/image) is not served in this multi-service deployment, so images are
+  // served as-is from public/ (the landing screenshots are already compressed JPEGs).
+  images: { unoptimized: true },
   async rewrites() {
     if (process.env.VERCEL) return [];
     return [{ source: "/api/:path*", destination: `${localApi}/api/:path*` }];
