@@ -139,10 +139,10 @@ On Vercel:
 
 ## Repository
 ```
-backend/   ingestion · preprocessing · processing · comparison · environmental_context · validation · api · tests
+backend/   ingestion, preprocessing, processing, comparison, environmental_context, validation, api, tests
 frontend/  Next.js + MapLibre (app/, maps/, components/, dashboard/, services/)
 scripts/   fetch_demo.py, demo_areas.json
-docs/      architecture · methodology · data_sources · validation · limitations
+docs/      architecture, methodology, data_sources, validation, limitations
 data/      raw/ processed/ reference/   (git-ignored; created by the scripts)
 ```
 
