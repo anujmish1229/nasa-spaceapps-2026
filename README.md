@@ -12,6 +12,17 @@ SAR-Pulse turns real NISAR L-band radar observations into a validated surface-wa
 
 **Case study:** monsoon drainage of the Sylhet haor wetlands, Bangladesh. NISAR track 69 ascending, frame 14, from **18 June to 16 October 2026** (120 days).
 
+**Live app:** https://nasa-spaceapps-2026.vercel.app
+
+![SAR-Pulse explore view: water that receded between June and October 2026 across the Sylhet haor wetlands, with the validation summary on the right](docs/screenshots/explore.jpg)
+
+<details>
+<summary>Landing page</summary>
+
+![SAR-Pulse landing page](docs/screenshots/landing.jpg)
+
+</details>
+
 ## NASA resources used
 
 | NASA resource | Identifier | What SAR-Pulse uses it for | Status |
